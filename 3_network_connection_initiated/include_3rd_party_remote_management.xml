@@ -7,6 +7,43 @@
 				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">vncviewer.exe</Image>				<!-- VNC client | Credit @Cyb3rOps -->
 				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">vncservice.exe</Image>				<!-- VNC server | Credit @Cyb3rOps -->
 				<Image name="technique_id=T1569.002,technique_name=Service Execution" condition="image">winexesvc.exe</Image>				<!-- Winexe service executable | Credit @Cyb3rOps -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">AnyDesk.exe</Image>				<!-- AnyDesk client -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">remoting_host.exe</Image>				<!-- Chrome Remote Desktop -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">remoting_desktop.exe</Image>				<!-- Chrome Remote Desktop -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">TeamViewer.exe</Image>				<!-- TeamViewer -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">TeamViewer_Desktop.exe</Image>				<!-- TeamViewer -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">Tv_w32.exe</Image>				<!-- TeamViewer -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">Tv_x64.exe</Image>				<!-- TeamViewer -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">Tv_x64.exe</Image>				<!-- TeamViewer -->
+				<Image name="technique_id=T1569.002,technique_name=Service Execution" condition="image">TeamViewer_Service.exe</Image>				<!-- TeamViewer Service -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">ScreenConnect.ClientService.exe</Image>				<!-- ScreenConnect -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">NinjaRMMAgent.exe</Image>				<!-- NinjaRMM -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">NinjaRMMAgentPatcher.exe</Image>				<!-- NinjaRMM -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">ninjarmm-cli.exe</Image>				<!-- NinjaRMM -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">dcagentservice.exe</Image>				<!-- ManageEngine DesktopCentral -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">DCFAService64.exe</Image>				<!-- ManageEngine DesktopCentral -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">beamyourscreen.exe</Image>				<!-- BeamYourScreen -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">connectwisecontrol.client.exe</Image>				<!-- ConnectWise -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">dwrcs.exe</Image>				<!-- DameWare -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">netviewer.exe</Image>				<!-- NetViewer -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">syncrosetup.exe</Image>				<!-- Atera -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">AgentPackageSTRemote.exe</Image>				<!-- Atera -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">AgentPackageNetworkDiscoveryWG.exe</Image>				<!-- Atera -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">AteraAgent.exe</Image>				<!-- Atera -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">radmin.exe</Image>				<!-- RAdmin -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">RoyalTS.exe</Image>				<!-- RoyalTS -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">ShowMyPC.exe</Image>				<!-- ShowMyPC -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">sragent.exe</Image>				<!-- SplashTop Remote -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">srmanager.exe</Image>				<!-- SplashTop Remote -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">srserver.exe</Image>				<!-- SplashTop Remote -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">srservice.exe</Image>				<!-- SplashTop Remote -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">tacticalrmm.exe</Image>				<!-- Tactical RMM -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">ultraviewer.exe</Image>				<!-- UltraViewer -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">ultraviewer_desktop.exe</Image>				<!-- UltraViewer -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">ultraviewer_service.exe</Image>				<!-- UltraViewer -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">za_connect.exe</Image>				<!-- Zoho -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">zaservice.exe</Image>				<!-- Zoho -->
+				<Image name="technique_id=T1021,technique_name=Remote Services" condition="image">zohotray.exe</Image>				<!-- Zoho -->
 			</NetworkConnect>
 		</RuleGroup>
 	</EventFiltering>
